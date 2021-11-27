@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body {
+
+}
+
+/* 画像の大きさを最適化する max-width:100%; */
+/* https://www.homepage-tukurikata.com/css/max-width.html */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  padding: 0.5em;/*文字周りの余白*/
+  color: #494949;/*文字色*/
+  background: #fffaf4;/*背景色*/
+  border-left: solid 6px #ffaf58;/*左線（実線 太さ 色）*/
+}
+
+h2 {
+  padding: 0.2em;/*文字周りの余白*/
+  color: #494949;/*文字色*/
+  background: #fffaf4;/*背景色*/
+  border-left: solid 6px #ffaf58;/*左線（実線 太さ 色）*/
+}
+
+h3 {
+  padding: 0.2em;/*文字周りの余白*/
+  color: #494949;/*文字色*/
+  background: #fffaaa;/*背景色*/
+  border-left: solid 6px #ffaf58;/*左線（実線 太さ 色）*/
+}
+
+h4 {
+  padding: 0.2em;/*文字周りの余白*/
+  color: #494949;/*文字色*/
+  background: #fffbbb;/*背景色*/
+  border-left: solid 6px #ffaf58;/*左線（実線 太さ 色）*/
+}
+
+h5 {
+  padding: 0.2em;/*文字周りの余白*/
+  color: #494949;/*文字色*/
+  background: #fffccc;/*背景色*/
+  border-left: solid 6px #ffaf58;/*左線（実線 太さ 色）*/
+}
+
+
+.header {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.logo a:link{
+    border: 1px solid #ccc;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    color: #000;
+    text-decoration:none;
+}
+.logo a:visited{
+    color: #000;
+}
+.logo a:hover{
+    text-decoration:underline;
+}
+
+.nav {
+}
+
+.nav a {
+}
+
+.nav:hover {
+    background: #eee;
+}
+
+.footer {
+    margin-top: 2em;
+    padding: 1em 0;
+}
+
+.main {
+    padding: 20px;
+}
+
