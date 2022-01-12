@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T01:04:27.477Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Zuv6yHaDprcbzpTbHNcU" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T01:54:53.541Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="YMI7jA02wjLeWupM_Sg8" version="16.2.4" type="github">
   <diagram id="wNjajI2MCHbM71Gs-DAX" name="ページ1">
-    <mxGraphModel dx="701" dy="495" grid="1" gridSize="39.37" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="684" dy="497" grid="1" gridSize="39.37" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RUVW1VNI79D-d2WEvtp2-1" value="&lt;div&gt;&lt;div&gt;Linux でトラックポイントまわりの挙動を細かく設定したい&lt;/div&gt;&lt;div&gt;https://xr0038.hatenadiary.jp/entry/2015/03/09/072354&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;目的&lt;/div&gt;&lt;div&gt;Ubuntu 14.04 に ThinkPad の bluetooth キーボードを接続して使用している．トラックポイント + 中ボタンでマウスホイール操作によるスクロールをしようとするときに，トラックポイントでカーソルを動かすタイミングによってはミドルクリックのペーストが先に認識されてしまうことが度々ある．トラックポイントに関係する細かいプロパティを設定することで，ミドルクリックペーストが暴発しないようにしたい．&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry width="157.48" height="157.48" as="geometry" />
-        </mxCell>
-        <mxCell id="i1Krq545Tv1BAeZPOpzA-14" value="&lt;div&gt;他、以下についても&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="14" y="266" width="322" height="182" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
