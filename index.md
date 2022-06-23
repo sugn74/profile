@@ -47,6 +47,7 @@ blogリンクとか、このHPとか混在です
 
 
 ### 化学？
+- [電気分解でアクリル塗装剥がし。失敗](./diy/denkai_tosou01/index.html)
 - [クエン酸エッチング失敗中](http://hananekolog.blogspot.com/2018/05/blog-post_27.html)
 - [クエン酸リンスの作り方](http://hananekolog.blogspot.com/2018/12/blog-post.html)
 - [発泡ポリエチレンで箱作り失敗中](http://hananekolog.blogspot.com/2014/05/blog-post.html)
