@@ -10,6 +10,11 @@ img {
   height: auto;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 h1 {
   padding: 0.5em;/*文字周りの余白*/
   color: #494949;/*文字色*/
