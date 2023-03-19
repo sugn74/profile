@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../../common/style.css" rel="stylesheet">
+    <title>M1 Mac で ATtiny13a を使う</title>
+
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="logo"><a href="../../index.html">全自動の時間です</a></div>
+    </div>
+
+
+    <div class="wrapper">
+
+        <div class="main">
+		<h1>M1 Mac で ATtiny13a を使う</h1>
+<p>2023/03/19</p>
+<p>M1 Mac こと Apple silicon のMacでAVRの書き込みができないかなあ？と調べた結果<br />
+上手くいきました。<br />
+LED点滅(Lチカ)を目標にします。</p>
+<p>言語 : Arduino<br />
+対象マイコン : ATtiny13a<br />
+書き込み装置 : AVRISPmkII  </p>
+<h2>環境設定</h2>
+<p>ATtinyシリーズ用ライブラリは ATTinyCore が有名だけど ATTinyCore では13aサポートされてない。<br />
+似たようなもので MicroCore が必要<br />
+<a href="https://github.com/MCUdude/MicroCore/">GitHub - MCUdude/MicroCore: A light-weight Arduino hardware package for ATtiny13</a><br />
+インストール方法に従いボードマネージャに追加する。  </p>
+<p><img alt="bordmane_setting" src="bordmane_setting.png" />  </p>
+<p>選べるようになってる<br />
+<img alt="MCUselect" src="MCUselect.png" />  </p>
+<h2>回路図</h2>
+<p><img alt="circuit" src="circuit1.jpg" /></p>
+<h2>コード</h2>
+<pre>
+<code>
+void setup() {
+  pinMode(2, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(2, HIGH);
+  delay(500);
+  digitalWrite(2, LOW); 
+  delay(500);
+}
+</code></pre>
+
+<h2>書き込み設定</h2>
+<p><img alt="wrtite_setting" src="wrtite_setting.png" /></p>
+<p>秋月で買ったDIP-IC用クリップ使って書き込んでる。便利。<br />
+<img alt="photo_writting" src="photo_writting.jpg" /></p>
+<p>ISP繋げっぱなしのためには、パスコン100uFが必要だった。<br />
+つけないと高速点灯してしまう（バグってる感じ）</p>
+	    </div>
+    </div>
+    <HR>
+    <div class="footer">
+	    <div><a href="../../about/index.html">>about me</a></div>
+    </div>
+
+
+</body>
+
+</html>

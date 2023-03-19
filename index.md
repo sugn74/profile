@@ -44,6 +44,7 @@ blogリンクとか、このHPとか混在です
 私はJY-LKM1638大好きなのだけど。この記事需要あるのだろうか？
 - [エグゾーストキャノンなかなかムズイ](http://hananekolog.blogspot.com/2012/02/blog-post_29.html)
 - [ファンクションジェネレータを自作したけど・・](http://hananekolog.blogspot.com/2010/01/orz.html)
+- [M1 Mac で ATtiny13a を使う](./diy/Mac_ATtiny13a/index.html)
 
 
 ### 化学？
