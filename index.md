@@ -45,6 +45,7 @@ blogリンクとか、このHPとか混在です
 - [エグゾーストキャノンなかなかムズイ](http://hananekolog.blogspot.com/2012/02/blog-post_29.html)
 - [ファンクションジェネレータを自作したけど・・](http://hananekolog.blogspot.com/2010/01/orz.html)
 - [M1 Mac で ATtiny13a を使う](./diy/Mac_ATtiny13a/index.html)
+- [ANENG M118A マニュアル日本語訳](./diy/ANENG_M118A_manual_JP/index.html)
 
 
 ### 化学？
